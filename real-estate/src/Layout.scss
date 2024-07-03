@@ -1,0 +1,24 @@
+@import './reponsive.scss';
+.Layout{
+    
+    height: 100vh;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20PX;
+    @include lg{
+        background-color:rgb(0, 255, 34);
+    }
+
+    @include md{
+        background-color:rgb(0, 4, 255);
+        max-width: 768px;
+    }
+    @include sm{
+        background-color:red;
+        max-width: 640px;
+    }
+    
+    
+}

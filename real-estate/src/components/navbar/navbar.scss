@@ -1,0 +1,14 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    .left{
+        flex:3
+
+    
+    }
+    .right{
+        flex:2
+    }
+}
